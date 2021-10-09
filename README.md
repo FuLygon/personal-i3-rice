@@ -1,3 +1,5 @@
+My personal i3 setup and dotfiles
+
 # Dependencies
 
 - [alacritty](https://github.com/alacritty/alacritty)
