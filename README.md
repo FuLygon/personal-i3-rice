@@ -16,6 +16,7 @@
 
 ### Optional
 
+- [exa](https://github.com/ogham/exa) (better ls)
 - [flameshot](https://github.com/flameshot-org/flameshot)
 - font (needed if you don't plan to modify my alacritty, dunst and polybar config)
     - [FiraCode & Iosevka Nerd Font](https://github.com/ryanoasis/nerd-fonts)
