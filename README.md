@@ -9,7 +9,6 @@
 - [polybar](https://github.com/polybar/polybar)
 - [rofi](https://github.com/davatorium/rofi)
 - [zsh](https://github.com/zsh-users/zsh)
-    - [k](https://github.com/supercrabtree/k)
     - [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
     - [powerlevel10k](https://github.com/romkatv/powerlevel10k)
     - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
@@ -22,7 +21,7 @@
     - [FiraCode & Iosevka Nerd Font](https://github.com/ryanoasis/nerd-fonts)
     - [Font Awesome](https://github.com/FortAwesome/Font-Awesome)
 - [lazygit](https://github.com/jesseduffield/lazygit)
-- [personal firefox css](https://github.com/FuLygon/Personal-Firefox-CSS)
+- [personal firefox css](https://github.com/FuLygon/personal-firefox-css)
 - [playerctl](https://github.com/altdesktop/playerctl)
 - spotify
     - [spicetify-cli](https://github.com/khanhas/spicetify-cli)
