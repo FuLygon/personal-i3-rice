@@ -35,7 +35,7 @@ My personal i3 setup and dotfiles
 
 # OS Info
 
-- **Distro**: Manjaro i3 community build
+- **Distro**: Manjaro i3 community
 - **Shell**: zsh
 - **Window Manager**: i3-gaps
 - **Display Manager**: lightdm

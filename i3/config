@@ -33,7 +33,7 @@ bindsym $mod+Return exec --no-startup-id $TERMINAL
 bindsym $mod+Shift+q kill
 
 # start program launcher
-bindsym $mod+d exec --no-startup-id ~/.config/rofi/bin/launcher_text
+bindsym $mod+d exec --no-startup-id rofi -show drun
 
 # launch categorized menu
 bindsym $mod+z exec --no-startup-id morc_menu
@@ -57,7 +57,7 @@ bindsym $mod+Ctrl+m exec pavucontrol
 # Start Applications
 bindsym $mod+Ctrl+b exec terminal -e 'bmenu'
 bindsym $mod+F2 exec firefox
-bindsym $mod+F3 exec pcmanfm
+bindsym $mod+F3 exec --no-startup-id nautilus
 # bindsym $mod+F3 exec ranger
 bindsym $mod+Shift+F3 exec pcmanfm_pkexec
 bindsym $mod+F5 exec terminal -e 'mocp'
@@ -426,8 +426,8 @@ exec --no-startup-id ibus-daemon -xdr
 # Disable bell sound
 exec --no-startup-id xset -b
 
-# Bind rofi powermenu
-bindsym $mod+Shift+e exec --no-startup-id ~/.config/rofi/bin/android_powermenu
+# Lock screen
+bindsym $mod+Shift+e exec i3exit lock 
 
 # Media player controls
 bindsym XF86AudioPlay exec --no-startup-id playerctl play-pause

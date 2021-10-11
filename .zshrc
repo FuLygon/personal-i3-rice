@@ -109,12 +109,15 @@ ZLE_RPROMPT_INDENT=0
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# general use
+# replace ls with exa
 alias ls='exa'
 alias l='exa -lbF --git'
 alias ll='exa -lbGF --git'
 alias lS='exa -1'
 alias lt='exa --tree --level=2'
+
+# logout in terminal
+alias logout='i3exit logout'
 
 ZSH_CACHE_DIR=$HOME/.cache/oh-my-zsh
 if [[ ! -d $ZSH_CACHE_DIR ]]; then
