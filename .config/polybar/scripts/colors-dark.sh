@@ -25,7 +25,7 @@ change_color() {
 
 	* {
 	  al:    #00000000;
-	  bg:    #1F1F1FFF;
+	  bg:    #FF000000;
 	  bg1:   ${SH2}FF;
 	  bg2:   ${SH3}FF;
 	  bg3:   ${SH4}FF;

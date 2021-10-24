@@ -4,7 +4,7 @@ window:
     y: 2
   dynamic_padding: false
 
-background_opacity: 0.6
+background_opacity: 0.7
 
 font:
   normal:
