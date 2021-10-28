@@ -23,6 +23,7 @@ My personal i3 setup and dotfiles
 - font (needed if you don't plan to modify my alacritty, dunst and polybar config)
     - [FiraCode & Iosevka Nerd Font](https://github.com/ryanoasis/nerd-fonts)
     - [Font Awesome](https://github.com/FortAwesome/Font-Awesome)
+- [gotop](https://github.com/cjbassi/gotop)
 - [lazygit](https://github.com/jesseduffield/lazygit)
 - [personal firefox css](https://github.com/FuLygon/personal-firefox-css)
 - [playerctl](https://github.com/altdesktop/playerctl)
