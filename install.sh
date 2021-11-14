@@ -6,7 +6,7 @@ timestamp()
 }
 
 # Set your custom config location here. 
-# NOTE: i3, zsh config might need to be adjusted if default config file location is changed so be aware of that, you can fix it by look into their config file.
+# NOTE: i3, zsh config might need to be edited if default config file location is changed so be aware of that, you can fix it by look into their config file.
 lightdmwebkit2=/usr/share/lightdm-webkit/themes
 i3=$HOME/.i3
 zsh=$HOME
