@@ -46,6 +46,14 @@ My personal i3 setup and dotfiles
 - **Launcher**: rofi
 - **Notification**: dunst
 
+# Installation
+```bash
+$ git clone https://github.com/FuLygon/personal-i3-rice.git
+$ cd personal-i3-rice
+$ chmod +x install.sh && ./install.sh
+```
+**Note:** the installation script only install the config files, it won't install dependencies.
+
 # Screenshots
 
 ![terminal](screenshots/1.png)
