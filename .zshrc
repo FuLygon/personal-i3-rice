@@ -116,6 +116,9 @@ alias ll='exa -lbGF --git'
 alias lS='exa -1'
 alias lt='exa --tree --level=2'
 
+# replace lazygit with lg
+alias lg='lazygit'
+
 # logout in terminal
 alias logout='i3exit logout'
 
