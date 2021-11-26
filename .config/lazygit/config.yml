@@ -1,0 +1,7 @@
+gui:
+  showFileTree: false
+notARepository: 'skip'
+customCommands:
+  - key: '<c-g>'
+    command: 'code .'
+    context: 'global'

@@ -17,6 +17,7 @@ omz=$HOME/.config/ohmyzsh
 polybar=$HOME/.config/polybar
 rofi=$HOME/.config/rofi
 picom=$HOME/.config
+lazygit=$HOME/.config/lazygit
 
 # Start the installation script
 printf "\n\033[0;34mFuLygon's personal i3 dotsfiles installation script\n\n\033[0;37m"
@@ -32,6 +33,7 @@ printf "Default config file location. Edit this script if your location is diffe
     - polybar:          $polybar
     - rofi:             $rofi
     - picom:            $picom/picom.conf
+    - lazygit:          $lazygit/config.yml
     \n"
 PS3=$'\n'"Select your option: "
 select _ in \
@@ -63,6 +65,8 @@ do case $REPLY in
             mkdir -p $rofi && cp -rf ./.config/rofi/. $_
             echo "$(timestamp): Copying picom config to $picom"
             mkdir -p $picom && cp ./.config/picom.conf $_
+            echo "$(timestamp): Copying lazygit config to $lazygit"
+            mkdir -p $lazygit && cp ./.config/lazygit/config.yml $_
             printf "\033[0;36m$(timestamp): Done. You might need to logout for the changes to take effect\n"
             exit
             ;;
@@ -94,6 +98,8 @@ do case $REPLY in
             mkdir -p ./.config/rofi && cp -rf $rofi/. $_
             echo "$(timestamp): Retrieving picom config from $picom"
             mkdir -p ./.config/ && cp $picom/picom.conf $_
+            echo "$(timestamp): Retrieving lazygit config from $lazygit"
+            mkdir -p ./.config/lazygit && cp $lazygit/config.yml $_
             printf "\033[0;36m$(timestamp): Done\n"
             exit
             ;;
